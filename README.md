@@ -39,16 +39,23 @@ Below are visual representations of the model's performance:
 - **Dataset Sizes and Composition**: An image depicting the size and proportion of positive examples in each dataset (Image to be attached).
 - **Performance Comparison**: A graph comparing model performance on English datasets (steps 1,2, and 4) versus non-English datasets (steps 3 and 5), highlighting an interesting finding in multilingual model performance (Image to be attached).
 
-To include images in your README, you can upload them to your repository and then link to them using Markdown syntax:
 
-![F1 Scores for Each Round](/path/to/F1 Round 1 - xlm-r - no freezing.png)
-![Dataset Sizes](/path/to/Dataset sizes.png)
-![F1 Scores - English vs. PT and DE](/path/to/F1 Scores - Round 1 - xlm-r -- Step-avg for EN vs PT and DE datasets.png)
+## Visual Insights
 
+Below are visual representations of the model's performance:
 
-## Insights and Demonstrations
+- **F1 Measure Evolution**: A graph showing F1 measures at each training step.
+  
+  ![F1 Scores for Each Round](F1%20Round%201%20-%20xlm-r%20-%20no%20freezing.png)
 
-The notebooks provide insight into the TARS methodology's practical application, showcasing the potential for addressing hate speech detection challenges in a low-resource setting.
+- **Dataset Sizes and Composition**: An image depicting the size and proportion of positive examples in each dataset.
+  
+  ![Dataset Sizes](Dataset%20sizes.png)
+
+- **Performance Comparison**: A graph comparing model performance on English datasets (steps 1,2, and 4) versus non-English datasets (steps 3 and 5), highlighting an interesting finding in multilingual model performance.
+  
+  ![F1 Scores - English vs. PT and DE](F1%20Scores%20-%20Round%201%20-%20xlm-r%20--%20Step-avg%20for%20EN%20vs%20PT%20and%20DE%20datasets.png)
+
 
 ## Contact
 
