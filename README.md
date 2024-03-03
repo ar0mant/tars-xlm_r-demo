@@ -16,7 +16,35 @@ The research was driven by the following objectives:
 
 ## Repository Overview
 
-Contained within are Jupyter notebooks (`model_training_final_step.ipynb` and `EVAL_F1_all_datasets.ipynb`) that exemplify the TARS method's implementation for hate speech detection. These are intended as illustrative samples to accompany the study's findings.
+The two Jupyter notebooks in this repository represent the final stage of a five-stage sequential training process using TARS methodology with a pretrained XLM-RoBERTa-base model.
+
+### Process Overview
+
+- **Stage Complexity**: The code samples are derived from the last stage of a complex process involving five distinct hate speech datasets.
+- **Dataset Diversity**: These datasets spanned different languages (three in English, one in Brazilian Portuguese, and one in German) and varied in the number of categories, with minimal category overlap.
+- **Model Training**: The pretrained XLM-RoBERTa-base model was employed, processing the data accordingly and modifying the classification layer to align with the TARS-method.
+- **Sequential Training**: Throughout the training, we sequentially integrated all five datasets, evaluating the model's performance after each addition.
+- **Learning Objectives**: The aim was to demonstrate the model's ability to learn new categories while retaining knowledge of previously learned ones.
+
+### Final Stage Notebooks
+
+- `model_training_final_step.ipynb`: This notebook illustrates the training process during the final stage.
+- `EVAL_F1_all_datasets.ipynb`: This notebook evaluates the model's performance across all datasets after the final training stage.
+
+### Visual Insights
+
+Below are visual representations of the model's performance:
+
+- **F1 Measure Evolution**: A graph showing F1 measures at each training step (Image to be attached).
+- **Dataset Sizes and Composition**: An image depicting the size and proportion of positive examples in each dataset (Image to be attached).
+- **Performance Comparison**: A graph comparing model performance on English datasets (steps 1,2, and 4) versus non-English datasets (steps 3 and 5), highlighting an interesting finding in multilingual model performance (Image to be attached).
+
+To include images in your README, you can upload them to your repository and then link to them using Markdown syntax:
+
+![F1 Scores for Each Round](/path/to/F1 Round 1 - xlm-r - no freezing.png)
+![Dataset Sizes](/path/to/Dataset sizes.png)
+![F1 Scores - English vs. PT and DE](/path/to/F1 Scores - Round 1 - xlm-r -- Step-avg for EN vs PT and DE datasets.png)
+
 
 ## Insights and Demonstrations
 
