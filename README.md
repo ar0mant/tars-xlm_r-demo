@@ -47,12 +47,10 @@ Below are visual representations of the model's performance:
 - **F1 Measure Evolution**: A graph showing F1 measures at each training step.
 
   <img src="images/F1%20Round%201%20-%20xlm-r%20-%20no%20freezing.png" width="60%" />
-  
 
 - **Dataset Sizes and Composition**: An image depicting the size and proportion of positive examples in each dataset.
   
   <img src="images/Dataset%20sizes.png" width="60%" />
-  
 
 - **Performance Comparison**: A graph comparing model performance on English datasets (steps 1,2, and 4) versus non-English datasets (steps 3 and 5), highlighting an interesting finding in multilingual model performance.
   
