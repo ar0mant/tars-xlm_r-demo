@@ -22,7 +22,7 @@ The two Jupyter notebooks in this repository represent the final stage of a five
 
 - **Stage Complexity**: The code samples are derived from the last stage of a complex process involving five distinct hate speech datasets.
 - **Dataset Diversity**: These datasets spanned different languages (three in English, one in Brazilian Portuguese, and one in German) and varied in the number of categories, with minimal category overlap.
-- **Model Training**: The pretrained XLM-RoBERTa-base model was employed, processing the data accordingly and modifying the classification layer to align with the TARS-method.
+- **Model Training**: The pretrained XLM-RoBERTa-base model was employed, modifying the input sentences to align with the TARS-method.
 - **Sequential Training**: Throughout the training, we sequentially integrated all five datasets, evaluating the model's performance after each addition.
 - **Learning Objectives**: The aim was to demonstrate the model's ability to learn new categories while retaining knowledge of previously learned ones.
 
