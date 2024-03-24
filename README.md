@@ -1,8 +1,5 @@
 # Few-Shot Classification for Hate Speech Detection
 
-This repository is dedicated to showcasing the practical applications explored in the research "Few-Shot Classification for Hate Speech Detection" conducted by E. Kaurov as a part of master-thesis. The primary motivation behind this study was to assess and validate the effectiveness of the Task-Aware Representation of Sentences (TARS) methodology, as described in the [original TARS paper](https://aclanthology.org/2020.coling-main.285.pdf), in the context of hate speech detection across multiple languages, using the XLM-RoBERTa model.
-# Few-Shot Classification for Hate Speech Detection
-
 This repository highlights the practical applications from the master's thesis research "Few-Shot Classification for Hate Speech Detection" by E. Kaurov. The study was conducted to evaluate the Task-Aware Representation of Sentences (TARS) methodology, as described in the [original TARS paper](https://aclanthology.org/2020.coling-main.285.pdf), and its application to hate speech detection in multiple languages using the XLM-RoBERTa model. Additionally, the research includes a comparative analysis of the XLM-RoBERTa's performance against the GLoT-500, a model developed at the Center for Information and Language Processing at LMU Munich, with both models employing the TARS-method.
 
 This repository provides a brief demonstration of key points from the research. For a comprehensive understanding, the full work is available in the repository as [Few Shot Classification For Hate Speech Detection](Few%20Shot%20Classification%20For%20Hate%20Speech%20Detection.pdf).
