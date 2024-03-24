@@ -6,7 +6,7 @@ This repository provides a brief demonstration of key points from the research. 
 
 <br>
 
-For any further questions or to obtain the full research document, please send your request to [eugen.kaurov@gmail.com](mailto:eugen.kaurov@gmail.com).
+For any further questions please send your request to [eugen.kaurov@gmail.com](mailto:eugen.kaurov@gmail.com).
 
 
 
