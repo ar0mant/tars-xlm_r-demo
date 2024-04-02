@@ -53,7 +53,7 @@ Below are visual representations of the model's performance:
 
 ## Visual Insights
 
-Below are visual representations of the model's performance:
+Below are visual some of the most notable representations of the model's performance:
 
 - **F1 Measure Evolution**: A graph showing F1 measures at each training step.
 
